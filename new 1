@@ -1,0 +1,9 @@
+This paper tries to detect whether trained vulnerability detection models rely on unrelated code features to do the prediction. In the earlier published FSE paper, an approach was proposed to minimize a program and to check whether the minimized program can get similar prediction by the model. In the extended version, the authors further try to improve models' signal awareness by incorporating the notion of code complexity during model
+training, improve models' signal awareness by generating simplified signal-preserving programs and
+augmenting them to the training dataset, and to present a novel interpretation of the model learning behavior from the perspective of the dataset using its code complexity distribution.
+
+The paper targets an important problem and is well written. The approaches are well justified and experiments well designed. 
+
+There are some minor revisions the authors want to make before the paper can be accepted. 
+
+The authors should discuss whether using complexity factors and augmenting training data with minimized programs will cause bias on the model. Sometimes 
